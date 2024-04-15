@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { Auth0Provider } from "@auth0/auth0-react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
+import "./index.css";
 
 const auth0Domain = process.env.AUTH0_DOMAIN;
 const auth0ClientId = process.env.AUTH0_CLIENT_ID;
